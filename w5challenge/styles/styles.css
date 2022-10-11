@@ -1,0 +1,10 @@
+img w5_circles {
+    max-width: 1em;
+    display: block;
+    max-height: 1em;
+}
+img {
+    background-color:gray ;
+    display: inline-block;
+    
+}
