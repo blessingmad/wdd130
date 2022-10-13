@@ -69,7 +69,7 @@ footer {
 }
 .home-title {
     color: white;
-    font-family: 'Rock Salt';
+    font-family: 'Rock Salt',  'Open sans ', 'sans-serif';
     font-size: 2em;
     margin-top: 10px;
 
@@ -78,7 +78,7 @@ h4 {
     color: white;
 }
 .msg h2 {
-    font-family: 'Open + sans';
+    font-family: 'Rock Salt';
     color: black;
 }
 .msg p {
