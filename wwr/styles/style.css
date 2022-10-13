@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
+
 content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +7,7 @@ content{
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -23,10 +26,16 @@ main section {
 body {
     background-color: royalblue;
     color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+
 header {
     background-color: white;
     color: white;
+    font-family: 'Rock Salt';
 }
 nav a :hover {
     background-color: blue;
@@ -36,6 +45,10 @@ nav a :hover {
     background-color: blue;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px, 30px;
+    margin: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: blue;
@@ -44,22 +57,34 @@ nav a :hover {
 .msg {
     background-color:royalblue;
     color: white;
+    line-height: 1.5em;
+    
+    
 }
 footer {
     background-color: blue;
     color: white;
+    padding: 25px, 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: white;
+    font-family: 'Rock + Salt', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 h4 {
     color: white;
 }
 .msg h2 {
+    font-family: 'Open + sans';
     color: black;
 }
 .msg p {
     color: black;
+    
+    padding-bottom: 15px;
 }
 footer h3 {
     color: white;
@@ -79,6 +104,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
@@ -86,12 +112,27 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 
 
 
