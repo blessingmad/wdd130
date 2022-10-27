@@ -43,7 +43,7 @@ main section {
     height: 725px;
     background-color: azure;
     color: white;
-    grid-template-columns: 1/11;
+    grid-template-columns: 01/11;
     grid-row: 4/9;
 }
 body {
