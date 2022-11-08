@@ -207,6 +207,13 @@ main section img {
     box-shadow: 5px 5px 10px gray;
 }
 
+    /* page 2 , rivers css */
+
+.rivers-grid{
+    display: inline;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
