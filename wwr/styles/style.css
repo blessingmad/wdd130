@@ -161,7 +161,7 @@ footer .social img{
 }
 .home-grid{
     display: grid;
-    grid-template-columns:repeat(10 1fr);
+    grid-template-columns:repeat(10, 1fr);
 }
 .home-grid h2 {
     margin: 0;
