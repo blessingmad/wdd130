@@ -1,19 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
 
+content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color:#150578;
+    color: red;
+    display:grid;
+    grid-template-columns: 150px auto;
+    text-align: center;
+}
+.logo {
+    width: 80px;
+}
+
+
+main section {
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a :hover {
+    background-color: blue;
+    color: white;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+footer a:hover {
+    color: white;
+}
+ 
 
 
 
 
 
 
-
-
-
-
-
-
-
-
+footer {
+    background-color: #150578;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
@@ -21,3 +59,47 @@
 body{
     margin: auto;
 }
+/* online page css*/
+
+
+
+
+
+
+
+
+/* personal savings css*/
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+   
+    footer {
+        margin-top: 25px;
+    }
+}
+
