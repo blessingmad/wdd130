@@ -4,9 +4,10 @@ content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 header {
     background-color:#150578;
-    color: red;
+    color: white;
     display:grid;
     grid-template-columns: 150px auto;
     text-align: center;
@@ -19,10 +20,12 @@ msg p{
     grid-row: 1/2;
 
 }
-body{
-    background-color: ;
+p{
+    font-family: Roboto;
 }
-
+.msg h3{
+    font-family:Rock Salt ;
+}
 main section {
     text-align: center;
   }
@@ -44,8 +47,13 @@ footer a:hover {
     color: white;
 }
  
-
-
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+main section img {
+    box-sizing: border-box;
+}
 
 
 
