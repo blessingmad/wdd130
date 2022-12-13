@@ -4,41 +4,64 @@ content {
     max-width: 1600px;
     margin: 0 auto;
 }
+.msg{
+    grid-column: 1/2;
+    
+    line-height: 1.5em;
+
+}
+.card-img{
+    grid-row: 2/2;
+    
+}
 
 header {
     background-color:#150578;
     display:grid;
-    grid-template-columns: 150px auto;
-    text-align: center;
+    grid-template-columns: 200px auto;
+    text-align: left;
     font-family: Rock Salt;
-    color: white;
+    
+    
 }
 .logo {
     width: 80px;
 }
 .home-grid{
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .msg p{ 
     grid-column: 1/2;
-    grid-row: 1/2;
+    
     text-align: center;
     padding: 1em;
+    height: 100%;
+    box-shadow: 5px 5px 10px gray;
+
+
 }
-.personal{
-    width: 50%;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    display: grid;
+.icon{
+    width: 80px;
+    padding-top: 10px;
+    grid-column: 2/2;
+}
+footer p a:hover{
+    text-decoration: underline;
+    
+}
+footer p a {
+    color: white;
 }
 
 p{
     font-family: Roboto;
 }
-.msg h3{
+.msg h1{
     font-family:Rock Salt ;
     background-color: #150578;
     color: white;
+    justify-content: center;
 }
 main section {
     text-align: center;
@@ -46,12 +69,18 @@ main section {
   nav{
     display: flex;
     justify-content: space-around;
+    color: white;
     
 }
 
 nav a :hover {
     background-color: blue;
     color: white;
+}
+nav a {
+    color: white;
+    font-size: 1.0em;
+    text-decoration: none;
 }
 
 footer .social img{
@@ -90,8 +119,40 @@ body{
     margin: auto;
 }
 /* online page css*/
+.home-grd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
 
+.card-imge {
+    grid-row: 1/2;
+    
 
+    
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+.icn { 
+    width: 80px;
+    padding-top: 10px;
+    grid-row: 2/2;
+}
+.mg{
+    grid-column: 2/2;
+    
+    line-height: 1.5em;
+    text-align: center;
+}
+h2{
+    font-family: Rock Salt;
+    background: #150578;
+    color: white;
+    width: 100%;
+    text-align: left;
+}
 
 
 
